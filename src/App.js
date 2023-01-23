@@ -1,8 +1,6 @@
 import React,{useState} from 'react';
 import './App.css';
 import Login from "./pages/Login/Login";
-import Book from "./components/Book/Book";
-import BooksList from "./components/BooksList/BooksList";
 import BooksPage from "./pages/BooksPage/BooksPage";
 
 

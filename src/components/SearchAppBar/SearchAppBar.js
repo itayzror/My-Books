@@ -5,7 +5,6 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import InputBase from '@mui/material/InputBase';
 import SearchIcon from '@mui/icons-material/Search';
-import Button from "@mui/material/Button";
 import {IconButton, Pagination} from "@mui/material";
 
 const Search = styled('div')(({theme}) => ({

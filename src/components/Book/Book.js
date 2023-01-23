@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Button from '@mui/material/Button';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -10,7 +10,7 @@ import Favorite from '@mui/icons-material/Favorite';
 import {IconButton} from "@mui/material";
 
 const Book = ({book,handleFavorite, isFavorite, handleShowMore}) => {
-    const {title, moreInfo, thumbnail} = book;
+    const {title, thumbnail} = book;
 
     return (
         <Grid item xs={12} sm={6} md={4}>

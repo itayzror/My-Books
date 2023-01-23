@@ -1,6 +1,5 @@
 import React from 'react';
 import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
 import {Modal} from "@mui/material";
 
 const style = {
@@ -22,7 +21,7 @@ const BookInfo = ({bookInfo}) => {
                 if(typeof bookInfo[key] !== 'object') {
                    return <p key={key}>{key} : {bookInfo[key]}</p>
                 }
-
+                return null;
             })}
         </div>
     )
